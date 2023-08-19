@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --card-title-border-color-yellow: #746615;
+  --card-color-primary-yellow: #f7dd43;
+  --card-bg-color-yellow: #1d1c19;
+
+  --card-title-border-color-blue: #338af3;
+  --card-color-primary-blue: #338af3;
+  --card-bg-color-blue: #202024;
+
+  --card-title-border-color-green: green;
+  --card-color-primary-green: green;
+  --card-bg-color-green: rgba(26, 31, 27, 1);
+}
+
+body {
+  background-image: url(assets/bg-blue.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+
+  width: 100%;
+  height: 100vh;
+
+  margin: auto;
+}
+
+header {
+  padding: 20px;
+}
+
+header img {
+  width: 500px;
+}
