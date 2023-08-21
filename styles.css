@@ -23,6 +23,8 @@ body * {
 }
 
 body {
+  width: 100%;
+  height: fit-content;
   background-image: url(assets/bg-blue.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,9 +47,8 @@ header img {
 }
 
 main {  
-  width: 100%;
-
-  padding: 32px 0;
+  max-width: 1200px;
+  padding: 32px 0px;
 
   display: flex;
   justify-content: center;
